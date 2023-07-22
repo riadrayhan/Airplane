@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F47B55"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:id="@+id/id_cardview"
+        app:cardElevation="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="@color/teal_700"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#0E8E0A"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:background="@drawable/dart_d"
+                android:layout_height="wrap_content">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Dart Plane"
+                android:textSize="24dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:id="@+id/id_cardview2"
+        app:cardElevation="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="@color/teal_700"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#0E8E0A"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:background="@drawable/fold_f"
+                android:layout_height="wrap_content">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Fold Plane"
+                android:textSize="24dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:id="@+id/id_cardview3"
+        app:cardElevation="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="@color/teal_700"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#0E8E0A"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:background="@drawable/hammar_h"
+                android:layout_height="wrap_content">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Hammar Plane"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:id="@+id/id_cardview4"
+        app:cardElevation="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="@color/teal_700"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#0E8E0A"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:background="@drawable/salma_s"
+                android:layout_height="wrap_content">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Salma Plane"
+                android:textSize="24dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7230640014460944/9455152765" />
+
+
+</LinearLayout>
